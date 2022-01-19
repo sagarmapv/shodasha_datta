@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0a8e174f7a34f51b5564192c2a890fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d0a8e174f7a34f51b5564192c2a890fd" ></div>
+        
+</body>
+<script>    
+    
+            var map_d0a8e174f7a34f51b5564192c2a890fd = L.map(
+                "map_d0a8e174f7a34f51b5564192c2a890fd",
+                {
+                    center: [20.0, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b929c4882e054cd182e4ba91a8d5c709 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0a8e174f7a34f51b5564192c2a890fd);
+        
+    
+            var feature_group_7b5661a29ed843f690b417b6f9045e1d = L.featureGroup(
+                {}
+            ).addTo(map_d0a8e174f7a34f51b5564192c2a890fd);
+        
+    
+            var marker_044aabf141e74db88066ba5d2f087170 = L.marker(
+                [12.29581, 76.639381],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_6288358bd69e41039c30e51cd17c6cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_044aabf141e74db88066ba5d2f087170.setIcon(icon_6288358bd69e41039c30e51cd17c6cd2);
+        
+    
+        var popup_46a2ed6da9e244fc8ecd1cac42518d99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9643c84bb8fc4295acc6132ecea220ca = $(`<div id="html_9643c84bb8fc4295acc6132ecea220ca" style="width: 100.0%; height: 100.0%;">Kalagni Shamana Dattatreya , Mysuru</div>`)[0];
+            popup_46a2ed6da9e244fc8ecd1cac42518d99.setContent(html_9643c84bb8fc4295acc6132ecea220ca);
+        
+
+        marker_044aabf141e74db88066ba5d2f087170.bindPopup(popup_46a2ed6da9e244fc8ecd1cac42518d99)
+        ;
+
+        
+    
+    
+            var marker_52b28f2ef43043fcbdd96498ec51e1f6 = L.marker(
+                [14.752805, 78.552757],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_d84a7827db4f417fbf635347db6ee29a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_52b28f2ef43043fcbdd96498ec51e1f6.setIcon(icon_d84a7827db4f417fbf635347db6ee29a);
+        
+    
+        var popup_708b94dee78b4c31a641a33966b0a237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_447811a17d1346f988bfe8c58533f5b7 = $(`<div id="html_447811a17d1346f988bfe8c58533f5b7" style="width: 100.0%; height: 100.0%;">Yogiraja Vallabha , Proddatur</div>`)[0];
+            popup_708b94dee78b4c31a641a33966b0a237.setContent(html_447811a17d1346f988bfe8c58533f5b7);
+        
+
+        marker_52b28f2ef43043fcbdd96498ec51e1f6.bindPopup(popup_708b94dee78b4c31a641a33966b0a237)
+        ;
+
+        
+    
+    
+            var marker_868cfb0960f84fbdbd529fa36feaa6d8 = L.marker(
+                [12.971599, 77.594566],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_03702feb1c1d4697beb22a3e58e42804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_868cfb0960f84fbdbd529fa36feaa6d8.setIcon(icon_03702feb1c1d4697beb22a3e58e42804);
+        
+    
+        var popup_31517d34d87849fdb8a089d70b3250ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32c1479cde55483db7642898f09b876e = $(`<div id="html_32c1479cde55483db7642898f09b876e" style="width: 100.0%; height: 100.0%;">Datta Yogiraja , Bengaluru</div>`)[0];
+            popup_31517d34d87849fdb8a089d70b3250ed.setContent(html_32c1479cde55483db7642898f09b876e);
+        
+
+        marker_868cfb0960f84fbdbd529fa36feaa6d8.bindPopup(popup_31517d34d87849fdb8a089d70b3250ed)
+        ;
+
+        
+    
+    
+            var marker_d8fe9f5869a54059a4b95a3a5167250c = L.marker(
+                [14.685564, 77.595406],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_8aed8da1a5fa4758a7791e9d57373886 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d8fe9f5869a54059a4b95a3a5167250c.setIcon(icon_8aed8da1a5fa4758a7791e9d57373886);
+        
+    
+        var popup_d7645b8034704543abf23fdd5e963170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_984ac2793faf4e22954e887483236b0a = $(`<div id="html_984ac2793faf4e22954e887483236b0a" style="width: 100.0%; height: 100.0%;">Gnaana Saagara Dattatreya , Anantapur</div>`)[0];
+            popup_d7645b8034704543abf23fdd5e963170.setContent(html_984ac2793faf4e22954e887483236b0a);
+        
+
+        marker_d8fe9f5869a54059a4b95a3a5167250c.bindPopup(popup_d7645b8034704543abf23fdd5e963170)
+        ;
+
+        
+    
+    
+            var marker_c8b236bcb62048e8a05032473ea5de69 = L.marker(
+                [16.515099, 80.632095],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_834f4d991a5946daa2510ef3b4daff07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c8b236bcb62048e8a05032473ea5de69.setIcon(icon_834f4d991a5946daa2510ef3b4daff07);
+        
+    
+        var popup_687e3aad0b12457e8505aca5bf2c81aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a258aa2ee5b1423f8f248a6e077c1bf9 = $(`<div id="html_a258aa2ee5b1423f8f248a6e077c1bf9" style="width: 100.0%; height: 100.0%;">Shyamakamala Lochana Dattatreya , Vijayawada</div>`)[0];
+            popup_687e3aad0b12457e8505aca5bf2c81aa.setContent(html_a258aa2ee5b1423f8f248a6e077c1bf9);
+        
+
+        marker_c8b236bcb62048e8a05032473ea5de69.bindPopup(popup_687e3aad0b12457e8505aca5bf2c81aa)
+        ;
+
+        
+    
+    
+            var marker_b6ca584732554108a06051b8464b58a2 = L.marker(
+                [16.17, 81.129997],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_bf91daede19d4103bb3dcfe18ec13d1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6ca584732554108a06051b8464b58a2.setIcon(icon_bf91daede19d4103bb3dcfe18ec13d1e);
+        
+    
+        var popup_817c7090245b47fd98ca9bbcc29cfffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66fa62751c46496b855cedd42a432362 = $(`<div id="html_66fa62751c46496b855cedd42a432362" style="width: 100.0%; height: 100.0%;">Atri Varada Dattatreya , Machilipatnam</div>`)[0];
+            popup_817c7090245b47fd98ca9bbcc29cfffb.setContent(html_66fa62751c46496b855cedd42a432362);
+        
+
+        marker_b6ca584732554108a06051b8464b58a2.bindPopup(popup_817c7090245b47fd98ca9bbcc29cfffb)
+        ;
+
+        
+    
+    
+            var marker_a8d5ed6848984e5e84bb90fef744b65c = L.marker(
+                [14.582036, 77.579886],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_ec15da70973c4e8f951ff324e968f7b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a8d5ed6848984e5e84bb90fef744b65c.setIcon(icon_ec15da70973c4e8f951ff324e968f7b0);
+        
+    
+        var popup_e6d8efcaaeb549c4ac51c8cf0802d9f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ea53fbcdb6402e81414599aa5a4696 = $(`<div id="html_b5ea53fbcdb6402e81414599aa5a4696" style="width: 100.0%; height: 100.0%;">Samskaara Heena Shivaroopa Dattatreya , Jayalakshmipuram</div>`)[0];
+            popup_e6d8efcaaeb549c4ac51c8cf0802d9f4.setContent(html_b5ea53fbcdb6402e81414599aa5a4696);
+        
+
+        marker_a8d5ed6848984e5e84bb90fef744b65c.bindPopup(popup_e6d8efcaaeb549c4ac51c8cf0802d9f4)
+        ;
+
+        
+    
+    
+            var marker_a1f0659902744a87ab64987abf944c37 = L.marker(
+                [13.067439, 80.237617],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_043a2db165cf48b39960f4f4e5a58646 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a1f0659902744a87ab64987abf944c37.setIcon(icon_043a2db165cf48b39960f4f4e5a58646);
+        
+    
+        var popup_33d01ef948a44c9b91424e80b5e0e2d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a2ec36bc1647d78d4dd2ba34eae5a2 = $(`<div id="html_e3a2ec36bc1647d78d4dd2ba34eae5a2" style="width: 100.0%; height: 100.0%;">Aadi Guru Dattatreya , Chennai</div>`)[0];
+            popup_33d01ef948a44c9b91424e80b5e0e2d4.setContent(html_e3a2ec36bc1647d78d4dd2ba34eae5a2);
+        
+
+        marker_a1f0659902744a87ab64987abf944c37.bindPopup(popup_33d01ef948a44c9b91424e80b5e0e2d4)
+        ;
+
+        
+    
+    
+            var marker_57b2b2f5afae463b86c671d76c8cbd4d = L.marker(
+                [30.08716, 78.268112],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_2674641f8bf04b94be1f36f992a88edd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_57b2b2f5afae463b86c671d76c8cbd4d.setIcon(icon_2674641f8bf04b94be1f36f992a88edd);
+        
+    
+        var popup_494b2f7f2f4344f7a16467e16cc25163 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd50d5da11642a1b4ee50651ad60ab6 = $(`<div id="html_3fd50d5da11642a1b4ee50651ad60ab6" style="width: 100.0%; height: 100.0%;">Digambara Datta , Rishikesh</div>`)[0];
+            popup_494b2f7f2f4344f7a16467e16cc25163.setContent(html_3fd50d5da11642a1b4ee50651ad60ab6);
+        
+
+        marker_57b2b2f5afae463b86c671d76c8cbd4d.bindPopup(popup_494b2f7f2f4344f7a16467e16cc25163)
+        ;
+
+        
+    
+    
+            var marker_e50770dbe78e485c8855094b4d81775d = L.marker(
+                [16.582315, 81.378377],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_969b32f7a156418b9f610485d033d816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e50770dbe78e485c8855094b4d81775d.setIcon(icon_969b32f7a156418b9f610485d033d816);
+        
+    
+        var popup_343204e96103425c931fdf0fa6f8d1a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e29c74c3634d22812c67e9bfbf46d8 = $(`<div id="html_55e29c74c3634d22812c67e9bfbf46d8" style="width: 100.0%; height: 100.0%;">Vishwambaravadhoota Dattatreya , Akividu</div>`)[0];
+            popup_343204e96103425c931fdf0fa6f8d1a2.setContent(html_55e29c74c3634d22812c67e9bfbf46d8);
+        
+
+        marker_e50770dbe78e485c8855094b4d81775d.bindPopup(popup_343204e96103425c931fdf0fa6f8d1a2)
+        ;
+
+        
+    
+    
+            var marker_4f4264a597c541b09e53f6d8a75f6127 = L.marker(
+                [16.780001, 80.849998],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_25607ea315f14065b7d1d9e1453362e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4f4264a597c541b09e53f6d8a75f6127.setIcon(icon_25607ea315f14065b7d1d9e1453362e8);
+        
+    
+        var popup_54e011472eff476388b56954412e5610 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1de33d75e644f6a5987fbe38340782 = $(`<div id="html_4a1de33d75e644f6a5987fbe38340782" style="width: 100.0%; height: 100.0%;">Deva Deva Dattatreya , Nuzvid</div>`)[0];
+            popup_54e011472eff476388b56954412e5610.setContent(html_4a1de33d75e644f6a5987fbe38340782);
+        
+
+        marker_4f4264a597c541b09e53f6d8a75f6127.bindPopup(popup_54e011472eff476388b56954412e5610)
+        ;
+
+        
+    
+    
+            var marker_5abf5be4895746f59579fd83362a871a = L.marker(
+                [17.38714, 78.491684],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_1d35b52c6f6847afaa62acd4426a1674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5abf5be4895746f59579fd83362a871a.setIcon(icon_1d35b52c6f6847afaa62acd4426a1674);
+        
+    
+        var popup_862a2835298940ff8c8a552a6b25b42f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2297eed805774e3e8ce18aad6025d206 = $(`<div id="html_2297eed805774e3e8ce18aad6025d206" style="width: 100.0%; height: 100.0%;">Dattavadhoota , Hyderabad</div>`)[0];
+            popup_862a2835298940ff8c8a552a6b25b42f.setContent(html_2297eed805774e3e8ce18aad6025d206);
+        
+
+        marker_5abf5be4895746f59579fd83362a871a.bindPopup(popup_862a2835298940ff8c8a552a6b25b42f)
+        ;
+
+        
+    
+    
+            var marker_4cf639dbea95402a965aa2f0893995a7 = L.marker(
+                [16.372548, 80.834581],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_301394e8442d4c8a960783fffc2bf618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4cf639dbea95402a965aa2f0893995a7.setIcon(icon_301394e8442d4c8a960783fffc2bf618);
+        
+    
+        var popup_f3fb3dc5e57e47bfab9af46813eabe82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba9e8cec06464faca8570d88a00ecb13 = $(`<div id="html_ba9e8cec06464faca8570d88a00ecb13" style="width: 100.0%; height: 100.0%;">Datta Digambara , Gandigunta</div>`)[0];
+            popup_f3fb3dc5e57e47bfab9af46813eabe82.setContent(html_ba9e8cec06464faca8570d88a00ecb13);
+        
+
+        marker_4cf639dbea95402a965aa2f0893995a7.bindPopup(popup_f3fb3dc5e57e47bfab9af46813eabe82)
+        ;
+
+        
+    
+    
+            var marker_3d4e090be3a14ee0ba66586ff60e3ac1 = L.marker(
+                [9.931233, 76.267303],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_d4f722787f3b4c96ae0902722631728a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3d4e090be3a14ee0ba66586ff60e3ac1.setIcon(icon_d4f722787f3b4c96ae0902722631728a);
+        
+    
+        var popup_767616eaa15f499f8cf4ba37c3cc7cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be091b130148467fac44e2376504312e = $(`<div id="html_be091b130148467fac44e2376504312e" style="width: 100.0%; height: 100.0%;">Siddha Raja Dattatreya , Kochi</div>`)[0];
+            popup_767616eaa15f499f8cf4ba37c3cc7cd2.setContent(html_be091b130148467fac44e2376504312e);
+        
+
+        marker_3d4e090be3a14ee0ba66586ff60e3ac1.bindPopup(popup_767616eaa15f499f8cf4ba37c3cc7cd2)
+        ;
+
+        
+    
+    
+            var marker_cff9e0668f0745a19cc8df5803300447 = L.marker(
+                [12.5102286, 79.8849234],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_015c18dc1fff442897792e89db5e92fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cff9e0668f0745a19cc8df5803300447.setIcon(icon_015c18dc1fff442897792e89db5e92fe);
+        
+    
+        var popup_1005df4d7c6f4bac85af9516b5622df3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6fb1cae0df44affbd42aa1a924385b8 = $(`<div id="html_d6fb1cae0df44affbd42aa1a924385b8" style="width: 100.0%; height: 100.0%;">Maaya Mukta Avadhoota Dattatreya , Acharapakkam</div>`)[0];
+            popup_1005df4d7c6f4bac85af9516b5622df3.setContent(html_d6fb1cae0df44affbd42aa1a924385b8);
+        
+
+        marker_cff9e0668f0745a19cc8df5803300447.bindPopup(popup_1005df4d7c6f4bac85af9516b5622df3)
+        ;
+
+        
+    
+    
+            var marker_898802de19c247e1a10def3c911d4f56 = L.marker(
+                [21.17024, 72.831062],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_dbceb5c6eac64e3b95ea67252f65dd68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_898802de19c247e1a10def3c911d4f56.setIcon(icon_dbceb5c6eac64e3b95ea67252f65dd68);
+        
+    
+        var popup_8041e1a84dc64bb096b3cd5310356621 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a77bf5038ff54d4ab05e18e5035e7001 = $(`<div id="html_a77bf5038ff54d4ab05e18e5035e7001" style="width: 100.0%; height: 100.0%;">Leela Vishwambara Dattatreya , Surat</div>`)[0];
+            popup_8041e1a84dc64bb096b3cd5310356621.setContent(html_a77bf5038ff54d4ab05e18e5035e7001);
+        
+
+        marker_898802de19c247e1a10def3c911d4f56.bindPopup(popup_8041e1a84dc64bb096b3cd5310356621)
+        ;
+
+        
+    
+    
+            var marker_f2127d132de54aaaac03e882ba4924ca = L.marker(
+                [12.2576, 77.4458],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_6264654f800c4a57ba393dc4f8051e9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f2127d132de54aaaac03e882ba4924ca.setIcon(icon_6264654f800c4a57ba393dc4f8051e9c);
+        
+    
+        var popup_f33420b4ee8b45769d63d18c1bd11a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f05f9f4682784a66907f52c7307b8a85 = $(`<div id="html_f05f9f4682784a66907f52c7307b8a85" style="width: 100.0%; height: 100.0%;">Datta Kashi , Mekedatu</div>`)[0];
+            popup_f33420b4ee8b45769d63d18c1bd11a67.setContent(html_f05f9f4682784a66907f52c7307b8a85);
+        
+
+        marker_f2127d132de54aaaac03e882ba4924ca.bindPopup(popup_f33420b4ee8b45769d63d18c1bd11a67)
+        ;
+
+        
+    
+    
+            var marker_0ec50fee60cd49f5bd3f37977f31899f = L.marker(
+                [16.12348, 81.12313],
+                {}
+            ).addTo(feature_group_7b5661a29ed843f690b417b6f9045e1d);
+        
+    
+            var icon_420439c046514bd684cbd8b5d50b3603 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0ec50fee60cd49f5bd3f37977f31899f.setIcon(icon_420439c046514bd684cbd8b5d50b3603);
+        
+    
+        var popup_e3a8b5f9b5cf4e7493bd2f7cc35a75f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_054ee2cdc64d4a308f49c76fa18bb988 = $(`<div id="html_054ee2cdc64d4a308f49c76fa18bb988" style="width: 100.0%; height: 100.0%;">Datta Rameshwaram , Manginapudi</div>`)[0];
+            popup_e3a8b5f9b5cf4e7493bd2f7cc35a75f5.setContent(html_054ee2cdc64d4a308f49c76fa18bb988);
+        
+
+        marker_0ec50fee60cd49f5bd3f37977f31899f.bindPopup(popup_e3a8b5f9b5cf4e7493bd2f7cc35a75f5)
+        ;
+
+        
+    
+</script>

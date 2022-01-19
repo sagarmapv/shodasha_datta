@@ -1,0 +1,19 @@
+NO,Datta_Name,Town,Latitude,Longitude
+1,Kalagni Shamana Dattatreya , Mysuru, 12.295810, 76.639381
+2,Yogiraja Vallabha , Proddatur, 14.752805, 78.552757
+3,Datta Yogiraja , Bengaluru, 12.971599, 77.594566
+4,Gnaana Saagara Dattatreya , Anantapur, 14.685564, 77.595406
+5,Shyamakamala Lochana Dattatreya , Vijayawada, 16.515099, 80.632095
+6,Atri Varada Dattatreya , Machilipatnam, 16.170000, 81.129997
+7,Samskaara Heena Shivaroopa Dattatreya , Jayalakshmipuram, 14.582036, 77.579886
+8,Aadi Guru Dattatreya , Chennai, 13.067439, 80.237617
+9,Digambara Datta , Rishikesh, 30.087160, 78.268112
+10,Vishwambaravadhoota Dattatreya , Akividu, 16.582315, 81.378377
+11,Deva Deva Dattatreya , Nuzvid, 16.780001, 80.849998
+12,Dattavadhoota , Hyderabad, 17.387140, 78.491684
+13,Datta Digambara , Gandigunta, 16.372548, 80.834581
+14,Siddha Raja Dattatreya , Kochi, 9.931233, 76.267303
+15,Maaya Mukta Avadhoota Dattatreya , Acharapakkam, 12.5102286, 79.8849234
+16,Leela Vishwambara Dattatreya , Surat, 21.170240, 72.831062
+17,Datta Kashi , Mekedatu, 12.257600, 77.445800
+18,Datta Rameshwaram , Manginapudi, 16.123480, 81.12313
